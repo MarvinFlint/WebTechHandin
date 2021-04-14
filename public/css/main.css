@@ -201,6 +201,30 @@ header{
 }
 
 /* gallery */
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gallery img{
+    height: 200px;
+    width: auto;
+    margin: 30px 0;
+    transition: 0.5s all;
+    box-shadow: 3px 3px 5px rgb(66, 66, 66);
+}
+
+.gallery img:hover{
+    transform: scale(1.05) rotate(3deg);
+
+}
+
+.gallery iframe{
+    margin: 30px 0;
+}
+/* big view */
 
 .gallery-viewer{
     width:100vw;
@@ -219,7 +243,7 @@ header{
 .exit{
     position: fixed;
     top: 0;
-    right: 0;
+    right: 10px;
     font-size: 40px;
     color: white;
     cursor: pointer;
@@ -227,4 +251,14 @@ header{
 
 #img-large{
     width: 80%;
+}
+
+/* responsive */
+
+@media only screen and(max-width:768px){
+    .nav{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
 }
