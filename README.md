@@ -37,4 +37,4 @@ It exists and removes a lot of unneeded content for print views like the navigat
 Die Seite sollte eigentlich zum Hochschulserver aber wie besprochen vermerke ich hier dass das nicht funktioniert wie es soll (kein externer Zugriff)
 
 Das Projekt selbst ist dennoch dort hochgeladen (synced via GitHub),
-[der Link zum Repo befindet sich hier](https://github.com/MarvinFlint/WebTechHandin) und der Link zu meinem eigenen Webserver [hier](http://deploy.flintsworld.de/)
+[der Link zum Repo befindet sich hier](https://github.com/MarvinFlint/WebTechHandin) und der Link zu meinem eigenen Webserver [hier](https://www.deploy.flintsworld.de/)
