@@ -18,6 +18,7 @@ $(function(){
         var c = e.key;
         if(c == "Escape"){
             $('.gallery-viewer').hide();
+            $('th, td').removeClass('game-active');
         }
     })
 

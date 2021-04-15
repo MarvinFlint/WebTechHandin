@@ -26,6 +26,8 @@ Some of the assets used in the creation of the images are owned by Riot Games. <
 
 - On the about page is a table with a CV, or at least something close
 
-- There is actually a minigame where you can click on an individual cell to color it orange. Click again to remove the color.
+- There is actually a minigame where you can click on an individual cell to color it orange. Click again to remove the color. Alternatively, ESC removes ALL colored cells
 
 ## Print
+
+It exists and removes a lot of unneeded content for print views like the navigation / footer and changes up the size / layout a bit, although there are apparently some bugs with flexbox / overflow that cause cutoffs for sites.

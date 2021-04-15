@@ -1,0 +1,36 @@
+@media print{
+    body{
+        overflow: visible;
+    }
+    header, footer{
+        display: none !important;
+    }
+    .container{
+        width: 100vw;
+        background-color: red;
+    }
+    .content-block{
+        flex-direction: column;
+    }
+    .content-left, .content-right{
+        width: 100%;
+    }
+
+    iframe{
+        display: none;
+    }
+    .gallery{
+        width: 100%;
+        display: block;
+        overflow: visible;
+    }
+    .gallery img{
+        float: left;
+        width: 80%;
+        height: auto;
+        margin: 30px auto;
+    }
+    .gallery > h2{
+        display: none;
+    }
+}
