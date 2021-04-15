@@ -9,3 +9,23 @@ This page makes use of html (duh), css (also duh) and js / jquery
 
 The images used were all created by me
 Some of the assets used in the creation of the images are owned by Riot Games. <a href="https://www.riotgames.com/en/legal">Here is their legal "Jibber Jabber" which basically says all non-commercial use is fine and dandy.
+
+## Content & functionality
+
+- The entire site is responsive, top to bottom. Notable difference are text-boundaries and image sizes to fit the new screen, + the menu will collapse when switched to mobile
+
+- Clicking on the menu icon expands / collapses the menu
+
+- Hovering over the Logo in the top left will make it spin
+
+- hovering over an image on the frontpage will zoom in and create a box-shadow
+
+- Gallery images will do a slight turn and zoom in on hover. Clicking them will also give an enlarged view which can be closed by either clicking the X in the upper right corner or the ESC key
+
+- The videos are all mine and embedded iframes (I do not have the originals anymore, has been a few years)
+
+- On the about page is a table with a CV, or at least something close
+
+- There is actually a minigame where you can click on an individual cell to color it orange. Click again to remove the color.
+
+## Print

@@ -26,4 +26,14 @@ $(function(){
         $('.nav-list').slideToggle(500);
         $(this).toggleClass('cross');
     })
+
+    // about minigame. i know toggleClass exists.
+    $("td, th").click(function(){
+        if($(this).hasClass('game-active')){
+            $(this).removeClass('game-active');
+        }
+        else{
+            $(this).addClass('game-active');
+        }
+    })
 })

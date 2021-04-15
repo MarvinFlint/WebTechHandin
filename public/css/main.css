@@ -9,7 +9,7 @@ body{
 /* Structure / helper classes */
 
 .container{
-    max-width: 1280px;
+    max-width: 1480px;
     margin: 0 auto;
 }
 
@@ -289,9 +289,52 @@ header{
     width: 80%;
 }
 
+/* about */
+
+table{
+    width: 80%;
+    margin: 0 auto;
+}
+th, td{
+    border: 1px solid rgb(66, 66, 66);
+    padding: 3px;
+    transition: all 1s ease-in-out;
+}
+th{
+    width: 200px;
+}
+td{
+    width: auto;
+}
+
+th.game-active, td.game-active{
+    background-color: rgb(255, 145, 0);
+}
+
 /* responsive */
 
-@media screen and (max-width:768px){
+/* layout fixes for medium screens */
+@media screen and (max-width:1480px){
+    .section-title{
+        margin-left: 15px;
+    }
+}
+
+/* medium screens */
+@media screen and (max-width:1280px){
+    .gallery{
+        width: 80%;
+        margin: auto;
+        align-items: center;
+    }
+    .gallery iframe{
+        margin: 30px auto;
+    }
+}
+
+/* mobile */
+
+@media screen and (max-width:876px){
     .title{
         font-size: 4rem;
     }
@@ -338,6 +381,13 @@ header{
     }
     .section-title{
         padding: 0 20px;
+    }
+    .gallery{
+        width: 100%;
+    }
+    .gallery img{
+        width: 100%;
+        height: auto;
     }
 
 
