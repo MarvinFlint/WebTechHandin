@@ -54,6 +54,7 @@ body{
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(240, 240, 240);
+    overflow-x: hidden;
 }
 
 a{
@@ -73,6 +74,10 @@ img{
     max-width: 100%;
 }
 
+iframe{
+    max-width: 100%;
+}
+
 /* nav */ 
 
 header{
@@ -88,6 +93,36 @@ header{
     width: 100%;
     height: 75px;
     align-items: center;
+    position: relative;
+}
+
+.toggle{
+    display: none;
+    width: 40px;
+    height: 40px;
+    z-index: 20;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.5s all;
+}
+.cross .line-t {
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+.cross .line-m {
+    opacity: 0;
+}
+  
+.cross .line-b {
+    transform: rotate(45deg) translate(-8px, -8px);
 }
 
 .logo{
@@ -223,6 +258,7 @@ header{
 
 .gallery iframe{
     margin: 30px 0;
+    max-width: 100%;
 }
 /* big view */
 
@@ -256,6 +292,12 @@ header{
 /* responsive */
 
 @media screen and (max-width:768px){
+    .title{
+        font-size: 4rem;
+    }
+    .toggle{
+        display: block
+    }
     .nav{
         height: auto;
         width: 100%;
@@ -263,6 +305,7 @@ header{
         align-items: flex-start;
     }
     .nav-list{
+        display: none;
         flex-direction: column;
         width: 100%;
         align-items: flex-start;
@@ -271,9 +314,24 @@ header{
         width: 100%;
         font-size: 1.2rem;
     }
+    .nav-list li{
+        padding: 20px 0 20px 20px;
+    }
     #logo{
         position: inherit;
-        margin-top: 15px;
+        margin-top: 5px;
+        padding-bottom: 5px;
+    }
+    .content-block{
+        flex-direction: column;
+    }
+    .content-left, .content-right{
+        width: 100%;
+        align-items: flex-start;
+    }
+    .content-block h3, .content-block p{
+        margin-left:0;
+        padding-left: 0;
     }
     .content-block p:first-child{
         column-count: 1;
@@ -281,4 +339,6 @@ header{
     .section-title{
         padding: 0 20px;
     }
+
+
 }

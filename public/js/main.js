@@ -20,4 +20,10 @@ $(function(){
             $('.gallery-viewer').hide();
         }
     })
+
+    // mobile menu toggle
+    $(".toggle").click(function(){
+        $('.nav-list').slideToggle(500);
+        $(this).toggleClass('cross');
+    })
 })
