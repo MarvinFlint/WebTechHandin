@@ -8,7 +8,7 @@ This page makes use of html (duh), css (also duh) and js / jquery
 ## Copyright
 
 The images used were all created by me
-Some of the assets used in the creation of the images are owned by Riot Games. <a href="https://www.riotgames.com/en/legal">Here is their legal "Jibber Jabber" which basically says all non-commercial use is fine and dandy.
+Some of the assets used in the creation of the images are owned by Riot Games. <a href="https://www.riotgames.com/en/legal">Here is their legal "Jibber Jabber" which basically says all non-commercial use is fine and dandy.</a>
 
 ## Content & functionality
 
@@ -31,3 +31,10 @@ Some of the assets used in the creation of the images are owned by Riot Games. <
 ## Print
 
 It exists and removes a lot of unneeded content for print views like the navigation / footer and changes up the size / layout a bit, although there are apparently some bugs with flexbox / overflow that cause cutoffs for sites.
+
+## Upload
+
+Die Seite sollte eigentlich zum Hochschulserver aber wie besprochen vermerke ich hier dass das nicht funktioniert wie es soll (kein externer Zugriff)
+
+Das Projekt selbst ist dennoch dort hochgeladen (synced via GitHub),
+[der Link zum Repo befindet sich hier](https://github.com/MarvinFlint/WebTechHandin)
